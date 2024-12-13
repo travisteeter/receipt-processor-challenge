@@ -30,7 +30,7 @@ docker build -t [image name, e.g. receipt-processor] .
 ```
 3. Run the built image in a docker container
 ```
-docker run -it -p -d 3000:3000 [image name]
+docker run -it -d -p 3000:3000 [image name]
 ```
 4. Confirming docker container is running & monitor status
 ```
